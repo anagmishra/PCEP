@@ -1,0 +1,7 @@
+x = int(input("Enter a number: "))
+y = int(input("Enter another number: "))
+print(f"The bitwise AND of {x} and {y} is {x & y}")
+print(f"The bitwise OR of {x} and {y} is {x | y}")
+print(f"The bitwise NOT for {x} is {~x}")
+print(f"The 1-bit Left Shift for {y} is {y << 1}")
+print(f"The 2-bit Right Shift for {y} is {y >> 2}")
